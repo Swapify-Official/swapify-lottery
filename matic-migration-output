@@ -1,0 +1,58 @@
+Starting migrations...
+======================
+> Network name:    'matic'
+> Network id:      80001
+> Block gas limit: 20000000 (0x1312d00)
+
+
+2_deploy_swapify_lottery.js
+===========================
+
+   Deploying 'SwapifyRewardsERC20'
+   -------------------------------
+   > transaction hash:    0x695de9976d8fe4ba198e71d9c6596823fa2a899c677bd97343c49e99273a67b1
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x7aF2fCC755d34275a84E7B8E015b13780880AA1E
+   > block number:        25365576
+   > block timestamp:     1646338710
+   > account:             0xCDB1c8BD7f31f6EfaeDe6B616d669561292D9Ea5
+   > balance:             1.106389302472759198
+   > gas used:            1750080 (0x1ab440)
+   > gas price:           1.50000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0026251200175008 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 25365577)
+   > confirmation number: 2 (block: 25365578)
+
+   Deploying 'SwapifyLotterySystem'
+   --------------------------------
+   > transaction hash:    0x642fcdf05a1d9fc8105a5b46f131f56673dbf442d45178d62c86e67d6028b05c
+   > Blocks: 0            Seconds: 4
+   > contract address:    0xc46aB50cDc404d7a5B71124099c52e92FEF8657F
+   > block number:        25365579
+   > block timestamp:     1646338740
+   > account:             0xCDB1c8BD7f31f6EfaeDe6B616d669561292D9Ea5
+   > balance:             1.098273004918650548
+   > gas used:            5410865 (0x529031)
+   > gas price:           1.50000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00811629755410865 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 25365579)
+   > confirmation number: 2 (block: 25365580)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.01074141757160945 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.01074141757160945 ETH
