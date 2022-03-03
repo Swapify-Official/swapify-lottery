@@ -19,7 +19,7 @@
     "contracts"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.5.1",
