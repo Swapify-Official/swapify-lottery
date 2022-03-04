@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity >=0.8.0;
-
+import '@swapify-official/swapify-core/contracts/Permissible.sol';
 import './Ownable.sol';
 import './SwapifyLotteryTicketERC20.sol';
 import './libraries/SafeMath.sol';
 import './libraries/Decimal.sol';
 
-contract SwapifyLotterySystem is SwapifyLotteryTicketERC20, Ownable {
+contract SwapifyLotterySystem is SwapifyLotteryTicketERC20, Permissible {
     using SafeMath  for uint;
     using Decimal for uint;
 
@@ -112,7 +112,7 @@ contract SwapifyLotterySystem is SwapifyLotteryTicketERC20, Ownable {
      * @dev mints SwapifyTICKET and sends it to the specified address.  
      * This will be used in the DEX contract whenever trades get fulfilled.
      */
-    function mintTickets(address user, uint swapifyLotteryTicketAmount) external {
+    function mintTickets(address user, uint swapifyLotteryTicketAmount) external onlyPermissible {
         require(user != address(0), 'SwapifyLotterySystem: ZERO_ADDRESS');
         require(swapifyLotteryTicketAmount > 0, 'SwapifyLotterySystem: ZERO_AMOUNT');
         _mint(user, swapifyLotteryTicketAmount);
@@ -124,6 +124,8 @@ contract SwapifyLotterySystem is SwapifyLotteryTicketERC20, Ownable {
      * rewardsAmount is being ERC20 token that accepts 18 decimal points so value need to be sent as value * (10 ** 18)
      * Swapify Ticket does not support any decimals so based on ratio set it accepts integral value only.
      */
+
+     /*
     function buyTickets(address user, uint rewardsAmount) external {
         require(user != address(0), 'SwapifyLotterySystem: ZERO_ADDRESS');
         require(rewardsAmount > 0, 'SwapifyLotterySystem: Rewards ZERO_AMOUNT');
@@ -134,6 +136,9 @@ contract SwapifyLotterySystem is SwapifyLotteryTicketERC20, Ownable {
         _mint(user, swapifyTicketAmount);
         roundHistory[currentRound].reward = roundHistory[currentRound].reward.decimalAddition(rewardsAmount);
     }
+
+    */
+
     /**
      * @dev user will submit the amount of tickets (SWAPATICKETS) and they must have sufficient amount of tickets in their wallet. 
      * This will then create an entry with 4 random numbers between 0 - 9. 

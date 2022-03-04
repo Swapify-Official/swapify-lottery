@@ -22,6 +22,7 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
+    "@swapify-official/swapify-core": "0.0.8",
     "@truffle/hdwallet-provider": "^1.5.1",
     "dotenv": "^10.0.0",
     "truffle": "^5.4.15",
