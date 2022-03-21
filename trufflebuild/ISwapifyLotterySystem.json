@@ -34,15 +34,15 @@
     "absolutePath": "/C/GitHub/Swapify-Lottery/contracts/interfaces/ISwapifyLotterySystem.sol",
     "exportedSymbols": {
       "ISwapifyLotterySystem": [
-        2439
+        2433
       ]
     },
-    "id": 2440,
+    "id": 2434,
     "license": "GPL-3.0-or-later",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2431,
+        "id": 2425,
         "literals": [
           "solidity",
           ">=",
@@ -50,7 +50,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "46:24:6"
+        "src": "46:24:7"
       },
       {
         "abstract": false,
@@ -58,33 +58,33 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 2439,
+        "id": 2433,
         "linearizedBaseContracts": [
-          2439
+          2433
         ],
         "name": "ISwapifyLotterySystem",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "dd20c4a7",
-            "id": 2438,
+            "id": 2432,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "mintTickets",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2436,
+              "id": 2430,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2433,
+                  "id": 2427,
                   "mutability": "mutable",
                   "name": "user",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2438,
-                  "src": "134:12:6",
+                  "scope": 2432,
+                  "src": "134:12:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -92,10 +92,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2432,
+                    "id": 2426,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "134:7:6",
+                    "src": "134:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -106,12 +106,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 2435,
+                  "id": 2429,
                   "mutability": "mutable",
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2438,
-                  "src": "148:11:6",
+                  "scope": 2432,
+                  "src": "148:11:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -119,10 +119,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2434,
+                    "id": 2428,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "148:4:6",
+                    "src": "148:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -131,40 +131,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "133:27:6"
+              "src": "133:27:7"
             },
             "returnParameters": {
-              "id": 2437,
+              "id": 2431,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "169:0:6"
+              "src": "169:0:7"
             },
-            "scope": 2439,
-            "src": "113:57:6",
+            "scope": 2433,
+            "src": "113:57:7",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 2440,
-        "src": "74:99:6"
+        "scope": 2434,
+        "src": "74:99:7"
       }
     ],
-    "src": "46:127:6"
+    "src": "46:127:7"
   },
   "legacyAST": {
     "absolutePath": "/C/GitHub/Swapify-Lottery/contracts/interfaces/ISwapifyLotterySystem.sol",
     "exportedSymbols": {
       "ISwapifyLotterySystem": [
-        2439
+        2433
       ]
     },
-    "id": 2440,
+    "id": 2434,
     "license": "GPL-3.0-or-later",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2431,
+        "id": 2425,
         "literals": [
           "solidity",
           ">=",
@@ -172,7 +172,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "46:24:6"
+        "src": "46:24:7"
       },
       {
         "abstract": false,
@@ -180,33 +180,33 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 2439,
+        "id": 2433,
         "linearizedBaseContracts": [
-          2439
+          2433
         ],
         "name": "ISwapifyLotterySystem",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "dd20c4a7",
-            "id": 2438,
+            "id": 2432,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "mintTickets",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2436,
+              "id": 2430,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2433,
+                  "id": 2427,
                   "mutability": "mutable",
                   "name": "user",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2438,
-                  "src": "134:12:6",
+                  "scope": 2432,
+                  "src": "134:12:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -214,10 +214,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2432,
+                    "id": 2426,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "134:7:6",
+                    "src": "134:7:7",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -228,12 +228,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 2435,
+                  "id": 2429,
                   "mutability": "mutable",
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2438,
-                  "src": "148:11:6",
+                  "scope": 2432,
+                  "src": "148:11:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -241,10 +241,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2434,
+                    "id": 2428,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "148:4:6",
+                    "src": "148:4:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -253,26 +253,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "133:27:6"
+              "src": "133:27:7"
             },
             "returnParameters": {
-              "id": 2437,
+              "id": 2431,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "169:0:6"
+              "src": "169:0:7"
             },
-            "scope": 2439,
-            "src": "113:57:6",
+            "scope": 2433,
+            "src": "113:57:7",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 2440,
-        "src": "74:99:6"
+        "scope": 2434,
+        "src": "74:99:7"
       }
     ],
-    "src": "46:127:6"
+    "src": "46:127:7"
   },
   "compiler": {
     "name": "solc",
@@ -280,7 +280,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.1",
-  "updatedAt": "2022-03-03T20:14:58.872Z",
+  "updatedAt": "2022-03-21T21:36:30.580Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

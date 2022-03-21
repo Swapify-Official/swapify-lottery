@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity >=0.8.0;
-import '@swapify-official/swapify-core/contracts/Permissible.sol';
-import './Ownable.sol';
+import './Permissible.sol';
 import './SwapifyLotteryTicketERC20.sol';
 import './libraries/SafeMath.sol';
 import './libraries/Decimal.sol';
