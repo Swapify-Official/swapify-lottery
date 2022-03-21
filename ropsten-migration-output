@@ -1,0 +1,47 @@
+1_initial_migration.js
+======================
+   -------------------------------------
+   > Total cost:                   0 undefined
+
+
+2_deploy_swapify_lottery.js
+===========================
+
+   Deploying 'SwapifyRewardsERC20'
+   -------------------------------
+   > transaction hash:    0x348411472bdaf78a6ba8a670207d714e2d1a69f8c1e6605a0feb29080201f553
+   > Blocks: 6            Seconds: 456
+   > contract address:    0xFB11E6DE27DAc774aB1eaD576f60173052680228
+   > block number:        12115888
+   > block timestamp:     1647898989
+   > account:             0xCDB1c8BD7f31f6EfaeDe6B616d669561292D9Ea5
+   > balance:             5.019071394898525321
+   > gas used:            1750080 (0x1ab440)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0175008 ETH
+
+
+   Deploying 'SwapifyLotterySystem'
+   --------------------------------
+   > transaction hash:    0x73ea8caea330a03a96ea34f7b47d735d1da1b09ad3edbcb36ec7656ade187754
+   > Blocks: 0            Seconds: 28
+   > contract address:    0x0Aa4dA9fC6bF148E346f3aD0448449f059068739
+   > block number:        12115889
+   > block timestamp:     1647899049
+   > account:             0xCDB1c8BD7f31f6EfaeDe6B616d669561292D9Ea5
+   > balance:             4.966821384898525321
+   > gas used:            5225001 (0x4fba29)
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.05225001 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.06975081 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.06975081 ETH
